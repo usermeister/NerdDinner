@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cf04b480-1039-4092-bb1c-932075d4067a" name="botuly@BOTULY-PC 2011-06-28 02:41:21" runUser="botuly-PC\botuly" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="1df1e342-1eb6-4c39-8c1a-f51f61891b2f">
+    <Deployment runDeploymentRoot="botuly_BOTULY-PC 2011-06-28 02_41_21">
+      <DeploymentItem filename="D:\Work\Visual Studio Projects\NerdDinner\NerdDinner\bin\NerdDinner.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-06-28T02:41:21.8807515+02:00" queuing="2011-06-28T02:41:23.4168393+02:00" start="2011-06-28T02:41:23.6128506+02:00" finish="2011-06-28T02:41:24.6899122+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="17" executed="17" passed="17" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="About" storage="d:\work\visual studio projects\nerddinner\nerddinner.tests\bin\debug\nerddinner.tests.dll" id="aaa9bba8-e73d-09e0-82b3-3b75365080ca">
+      <Execution id="b3caeee5-b731-478d-8d42-f608900520e1" />
+      <TestMethod codeBase="D:/Work/Visual Studio Projects/NerdDinner/NerdDinner.Tests/bin/Debug/NerdDinner.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinner.Tests.Controllers.HomeControllerTest, NerdDinner.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" storage="d:\work\visual studio projects\nerddinner\nerddinner.tests\bin\debug\nerddinner.tests.dll" id="20784a95-ba1e-3608-0bd1-7837204fa3f9">
+      <Execution id="f7dbfa46-c292-469e-bd00-2616c9c25805" />
+      <TestMethod codeBase="D:/Work/Visual Studio Projects/NerdDinner/NerdDinner.Tests/bin/Debug/NerdDinner.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinner.Tests.Controllers.AccountControllerTest, NerdDinner.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Get_ReturnsView" storage="d:\work\visual studio projects\nerddinner\nerddinner.tests\bin\debug\nerddinner.tests.dll" id="53f4ac7e-733d-a2ab-a4a2-3eb2522d1740">
+      <Execution id="b061f0e8-8a09-42a0-a198-b168679381a4" />
+      <TestMethod codeBase="D:/Work/Visual Studio Projects/NerdDinner/NerdDinner.Tests/bin/Debug/NerdDinner.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinner.Tests.Controllers.AccountControllerTest, NerdDinner.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Get_ReturnsView" storage="d:\work\visual studio projects\nerddinner\nerddinner.tests\bin\debug\nerddinner.tests.dll" id="544315e2-18bd-f900-35da-be2273c554d1">
+      <Execution id="ad0949a4-2067-4c5c-90d9-f7115c088098" />
+      <TestMethod codeBase="D:/Work/Visual Studio Projects/NerdDinner/NerdDinner.Tests/bin/Debug/NerdDinner.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinner.Tests.Controllers.AccountControllerTest, NerdDinner.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfValidateUserFails" storage="d:\work\visual studio projects\nerddinner\nerddinner.tests\bin\debug\nerddinner.tests.dll" id="4d59b851-f836-eeb8-78fa-9c7f8b58f635">
+      <Execution id="debe5d51-08d7-43a5-853a-773054f6ee0c" />
+      <TestMethod codeBase="D:/Work/Visual Studio Projects/NerdDinner/NerdDinner.Tests/bin/Debug/NerdDinner.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinner.Tests.Controllers.AccountControllerTest, NerdDinner.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfValidateUserFails" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" storage="d:\work\visual studio projects\nerddinner\nerddinner.tests\bin\debug\nerddinner.tests.dll" id="3825be60-7ca6-8279-743f-d5c47d26a283">
+      <Execution id="8836a3e9-2b37-40b3-bd3e-35e2e2841918" />
+      <TestMethod codeBase="D:/Work/Visual Studio Projects/NerdDinner/NerdDinner.Tests/bin/Debug/NerdDinner.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinner.Tests.Controllers.AccountControllerTest, NerdDinner.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" storage="d:\work\visual studio projects\nerddinner\nerddinner.tests\bin\debug\nerddinner.tests.dll" id="623d953c-c6ab-87fc-0a06-c4dfeb2ffa39">
+      <Execution id="a938d080-88fe-4a03-a03c-8f4f6bbc9861" />
+      <TestMethod codeBase="D:/Work/Visual Studio Projects/NerdDinner/NerdDinner.Tests/bin/Debug/NerdDinner.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinner.Tests.Controllers.AccountControllerTest, NerdDinner.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsRedirectOnSuccess" storage="d:\work\visual studio projects\nerddinner\nerddinner.tests\bin\debug\nerddinner.tests.dll" id="2432aeea-8453-eb56-5599-5c4bbbb57196">
+      <Execution id="12498d64-c54b-448e-826f-2f38bdd98179" />
+      <TestMethod codeBase="D:/Work/Visual Studio Projects/NerdDinner/NerdDinner.Tests/bin/Debug/NerdDinner.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinner.Tests.Controllers.AccountControllerTest, NerdDinner.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsRedirectOnSuccess" storage="d:\work\visual studio projects\nerddinner\nerddinner.tests\bin\debug\nerddinner.tests.dll" id="9baef4f3-9ce7-7037-8643-6b6cccd47801">
+      <Execution id="e813b495-b7f5-471b-aa87-9dcd184562c5" />
+      <TestMethod codeBase="D:/Work/Visual Studio Projects/NerdDinner/NerdDinner.Tests/bin/Debug/NerdDinner.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinner.Tests.Controllers.AccountControllerTest, NerdDinner.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" storage="d:\work\visual studio projects\nerddinner\nerddinner.tests\bin\debug\nerddinner.tests.dll" id="91b45020-791c-6a41-4018-cd792bd887c3">
+      <Execution id="bb554f6c-a1d0-4371-aa89-6a6f1dc92a8f" />
+      <TestMethod codeBase="D:/Work/Visual Studio Projects/NerdDinner/NerdDinner.Tests/bin/Debug/NerdDinner.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinner.Tests.Controllers.AccountControllerTest, NerdDinner.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" />
+    </UnitTest>
+    <UnitTest name="Index" storage="d:\work\visual studio projects\nerddinner\nerddinner.tests\bin\debug\nerddinner.tests.dll" id="e0f4a44e-2760-6f11-3652-dd15d3938016">
+      <Execution id="fd4e4a01-dae7-4bac-94d8-5a65b41bcb67" />
+      <TestMethod codeBase="D:/Work/Visual Studio Projects/NerdDinner/NerdDinner.Tests/bin/Debug/NerdDinner.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinner.Tests.Controllers.HomeControllerTest, NerdDinner.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="LogOn_Get_ReturnsView" storage="d:\work\visual studio projects\nerddinner\nerddinner.tests\bin\debug\nerddinner.tests.dll" id="61a46310-7b69-6a02-6d5b-4e6503f2cc2b">
+      <Execution id="8db33d48-7028-4cbf-a089-9794917f3750" />
+      <TestMethod codeBase="D:/Work/Visual Studio Projects/NerdDinner/NerdDinner.Tests/bin/Debug/NerdDinner.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinner.Tests.Controllers.AccountControllerTest, NerdDinner.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" storage="d:\work\visual studio projects\nerddinner\nerddinner.tests\bin\debug\nerddinner.tests.dll" id="55a2180e-2164-a0cd-4e76-e51ab5b3bec1">
+      <Execution id="8b427ab2-0eda-4489-8a53-435818b9f7b8" />
+      <TestMethod codeBase="D:/Work/Visual Studio Projects/NerdDinner/NerdDinner.Tests/bin/Debug/NerdDinner.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinner.Tests.Controllers.AccountControllerTest, NerdDinner.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfModelStateIsInvalid" storage="d:\work\visual studio projects\nerddinner\nerddinner.tests\bin\debug\nerddinner.tests.dll" id="90c4ba1a-4640-c937-cec5-908719f008ac">
+      <Execution id="ea9b8e7a-4652-4a9b-952c-c556e9c47b37" />
+      <TestMethod codeBase="D:/Work/Visual Studio Projects/NerdDinner/NerdDinner.Tests/bin/Debug/NerdDinner.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinner.Tests.Controllers.AccountControllerTest, NerdDinner.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccess_ReturnsView" storage="d:\work\visual studio projects\nerddinner\nerddinner.tests\bin\debug\nerddinner.tests.dll" id="96d3553d-65d6-7ed2-a346-3180af18f71a">
+      <Execution id="46960df5-6cc9-4c74-8413-f3c294031ac0" />
+      <TestMethod codeBase="D:/Work/Visual Studio Projects/NerdDinner/NerdDinner.Tests/bin/Debug/NerdDinner.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinner.Tests.Controllers.AccountControllerTest, NerdDinner.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordSuccess_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="LogOff_LogsOutAndRedirects" storage="d:\work\visual studio projects\nerddinner\nerddinner.tests\bin\debug\nerddinner.tests.dll" id="3135fd93-2367-6601-4eaa-78742252084d">
+      <Execution id="c96b6315-2f20-49fd-88ed-67dfec0b930b" />
+      <TestMethod codeBase="D:/Work/Visual Studio Projects/NerdDinner/NerdDinner.Tests/bin/Debug/NerdDinner.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinner.Tests.Controllers.AccountControllerTest, NerdDinner.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOff_LogsOutAndRedirects" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfRegistrationFails" storage="d:\work\visual studio projects\nerddinner\nerddinner.tests\bin\debug\nerddinner.tests.dll" id="d89233ac-2686-4759-c04d-1eecac089a5d">
+      <Execution id="8ec18c20-4842-484c-bdb5-9d206c727ed8" />
+      <TestMethod codeBase="D:/Work/Visual Studio Projects/NerdDinner/NerdDinner.Tests/bin/Debug/NerdDinner.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NerdDinner.Tests.Controllers.AccountControllerTest, NerdDinner.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfRegistrationFails" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="20784a95-ba1e-3608-0bd1-7837204fa3f9" executionId="f7dbfa46-c292-469e-bd00-2616c9c25805" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2432aeea-8453-eb56-5599-5c4bbbb57196" executionId="12498d64-c54b-448e-826f-2f38bdd98179" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3135fd93-2367-6601-4eaa-78742252084d" executionId="c96b6315-2f20-49fd-88ed-67dfec0b930b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3825be60-7ca6-8279-743f-d5c47d26a283" executionId="8836a3e9-2b37-40b3-bd3e-35e2e2841918" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d59b851-f836-eeb8-78fa-9c7f8b58f635" executionId="debe5d51-08d7-43a5-853a-773054f6ee0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53f4ac7e-733d-a2ab-a4a2-3eb2522d1740" executionId="b061f0e8-8a09-42a0-a198-b168679381a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="544315e2-18bd-f900-35da-be2273c554d1" executionId="ad0949a4-2067-4c5c-90d9-f7115c088098" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="55a2180e-2164-a0cd-4e76-e51ab5b3bec1" executionId="8b427ab2-0eda-4489-8a53-435818b9f7b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61a46310-7b69-6a02-6d5b-4e6503f2cc2b" executionId="8db33d48-7028-4cbf-a089-9794917f3750" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="623d953c-c6ab-87fc-0a06-c4dfeb2ffa39" executionId="a938d080-88fe-4a03-a03c-8f4f6bbc9861" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90c4ba1a-4640-c937-cec5-908719f008ac" executionId="ea9b8e7a-4652-4a9b-952c-c556e9c47b37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91b45020-791c-6a41-4018-cd792bd887c3" executionId="bb554f6c-a1d0-4371-aa89-6a6f1dc92a8f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96d3553d-65d6-7ed2-a346-3180af18f71a" executionId="46960df5-6cc9-4c74-8413-f3c294031ac0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9baef4f3-9ce7-7037-8643-6b6cccd47801" executionId="e813b495-b7f5-471b-aa87-9dcd184562c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aaa9bba8-e73d-09e0-82b3-3b75365080ca" executionId="b3caeee5-b731-478d-8d42-f608900520e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d89233ac-2686-4759-c04d-1eecac089a5d" executionId="8ec18c20-4842-484c-bdb5-9d206c727ed8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0f4a44e-2760-6f11-3652-dd15d3938016" executionId="fd4e4a01-dae7-4bac-94d8-5a65b41bcb67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f7dbfa46-c292-469e-bd00-2616c9c25805" testId="20784a95-ba1e-3608-0bd1-7837204fa3f9" testName="LogOn_Post_ReturnsViewIfModelStateIsInvalid" computerName="BOTULY-PC" duration="00:00:00.0912398" startTime="2011-06-28T02:41:23.6868548+02:00" endTime="2011-06-28T02:41:24.3408922+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7dbfa46-c292-469e-bd00-2616c9c25805">
+    </UnitTestResult>
+    <UnitTestResult executionId="12498d64-c54b-448e-826f-2f38bdd98179" testId="2432aeea-8453-eb56-5599-5c4bbbb57196" testName="ChangePassword_Post_ReturnsRedirectOnSuccess" computerName="BOTULY-PC" duration="00:00:00.0436321" startTime="2011-06-28T02:41:24.3558931+02:00" endTime="2011-06-28T02:41:24.4178966+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12498d64-c54b-448e-826f-2f38bdd98179">
+    </UnitTestResult>
+    <UnitTestResult executionId="c96b6315-2f20-49fd-88ed-67dfec0b930b" testId="3135fd93-2367-6601-4eaa-78742252084d" testName="LogOff_LogsOutAndRedirects" computerName="BOTULY-PC" duration="00:00:00.0006799" startTime="2011-06-28T02:41:24.4228969+02:00" endTime="2011-06-28T02:41:24.4298973+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c96b6315-2f20-49fd-88ed-67dfec0b930b">
+    </UnitTestResult>
+    <UnitTestResult executionId="8836a3e9-2b37-40b3-bd3e-35e2e2841918" testId="3825be60-7ca6-8279-743f-d5c47d26a283" testName="ChangePassword_Post_ReturnsViewIfChangePasswordFails" computerName="BOTULY-PC" duration="00:00:00.0012390" startTime="2011-06-28T02:41:24.4328975+02:00" endTime="2011-06-28T02:41:24.4418980+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8836a3e9-2b37-40b3-bd3e-35e2e2841918">
+    </UnitTestResult>
+    <UnitTestResult executionId="debe5d51-08d7-43a5-853a-773054f6ee0c" testId="4d59b851-f836-eeb8-78fa-9c7f8b58f635" testName="LogOn_Post_ReturnsViewIfValidateUserFails" computerName="BOTULY-PC" duration="00:00:00.0010784" startTime="2011-06-28T02:41:24.4438981+02:00" endTime="2011-06-28T02:41:24.4518985+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="debe5d51-08d7-43a5-853a-773054f6ee0c">
+    </UnitTestResult>
+    <UnitTestResult executionId="b061f0e8-8a09-42a0-a198-b168679381a4" testId="53f4ac7e-733d-a2ab-a4a2-3eb2522d1740" testName="ChangePassword_Get_ReturnsView" computerName="BOTULY-PC" duration="00:00:00.0005803" startTime="2011-06-28T02:41:24.4548987+02:00" endTime="2011-06-28T02:41:24.4618991+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b061f0e8-8a09-42a0-a198-b168679381a4">
+    </UnitTestResult>
+    <UnitTestResult executionId="ad0949a4-2067-4c5c-90d9-f7115c088098" testId="544315e2-18bd-f900-35da-be2273c554d1" testName="Register_Get_ReturnsView" computerName="BOTULY-PC" duration="00:00:00.0004583" startTime="2011-06-28T02:41:24.4658993+02:00" endTime="2011-06-28T02:41:24.4718997+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad0949a4-2067-4c5c-90d9-f7115c088098">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b427ab2-0eda-4489-8a53-435818b9f7b8" testId="55a2180e-2164-a0cd-4e76-e51ab5b3bec1" testName="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" computerName="BOTULY-PC" duration="00:00:00.0004882" startTime="2011-06-28T02:41:24.4738998+02:00" endTime="2011-06-28T02:41:24.4809002+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b427ab2-0eda-4489-8a53-435818b9f7b8">
+    </UnitTestResult>
+    <UnitTestResult executionId="8db33d48-7028-4cbf-a089-9794917f3750" testId="61a46310-7b69-6a02-6d5b-4e6503f2cc2b" testName="LogOn_Get_ReturnsView" computerName="BOTULY-PC" duration="00:00:00.0005046" startTime="2011-06-28T02:41:24.4849004+02:00" endTime="2011-06-28T02:41:24.4899007+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8db33d48-7028-4cbf-a089-9794917f3750">
+    </UnitTestResult>
+    <UnitTestResult executionId="a938d080-88fe-4a03-a03c-8f4f6bbc9861" testId="623d953c-c6ab-87fc-0a06-c4dfeb2ffa39" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" computerName="BOTULY-PC" duration="00:00:00.0014966" startTime="2011-06-28T02:41:24.4939009+02:00" endTime="2011-06-28T02:41:24.4999013+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a938d080-88fe-4a03-a03c-8f4f6bbc9861">
+    </UnitTestResult>
+    <UnitTestResult executionId="ea9b8e7a-4652-4a9b-952c-c556e9c47b37" testId="90c4ba1a-4640-c937-cec5-908719f008ac" testName="Register_Post_ReturnsViewIfModelStateIsInvalid" computerName="BOTULY-PC" duration="00:00:00.0012128" startTime="2011-06-28T02:41:24.5029015+02:00" endTime="2011-06-28T02:41:24.5109019+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea9b8e7a-4652-4a9b-952c-c556e9c47b37">
+    </UnitTestResult>
+    <UnitTestResult executionId="bb554f6c-a1d0-4371-aa89-6a6f1dc92a8f" testId="91b45020-791c-6a41-4018-cd792bd887c3" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" computerName="BOTULY-PC" duration="00:00:00.0004132" startTime="2011-06-28T02:41:24.5129020+02:00" endTime="2011-06-28T02:41:24.5209025+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb554f6c-a1d0-4371-aa89-6a6f1dc92a8f">
+    </UnitTestResult>
+    <UnitTestResult executionId="46960df5-6cc9-4c74-8413-f3c294031ac0" testId="96d3553d-65d6-7ed2-a346-3180af18f71a" testName="ChangePasswordSuccess_ReturnsView" computerName="BOTULY-PC" duration="00:00:00.0003022" startTime="2011-06-28T02:41:24.5239027+02:00" endTime="2011-06-28T02:41:24.5289029+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46960df5-6cc9-4c74-8413-f3c294031ac0">
+    </UnitTestResult>
+    <UnitTestResult executionId="e813b495-b7f5-471b-aa87-9dcd184562c5" testId="9baef4f3-9ce7-7037-8643-6b6cccd47801" testName="Register_Post_ReturnsRedirectOnSuccess" computerName="BOTULY-PC" duration="00:00:00.0009269" startTime="2011-06-28T02:41:24.5329032+02:00" endTime="2011-06-28T02:41:24.5409036+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e813b495-b7f5-471b-aa87-9dcd184562c5">
+    </UnitTestResult>
+    <UnitTestResult executionId="b3caeee5-b731-478d-8d42-f608900520e1" testId="aaa9bba8-e73d-09e0-82b3-3b75365080ca" testName="About" computerName="BOTULY-PC" duration="00:00:00.0005291" startTime="2011-06-28T02:41:24.5539044+02:00" endTime="2011-06-28T02:41:24.5679052+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3caeee5-b731-478d-8d42-f608900520e1">
+    </UnitTestResult>
+    <UnitTestResult executionId="8ec18c20-4842-484c-bdb5-9d206c727ed8" testId="d89233ac-2686-4759-c04d-1eecac089a5d" testName="Register_Post_ReturnsViewIfRegistrationFails" computerName="BOTULY-PC" duration="00:00:00.0006324" startTime="2011-06-28T02:41:24.5699053+02:00" endTime="2011-06-28T02:41:24.5779058+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ec18c20-4842-484c-bdb5-9d206c727ed8">
+    </UnitTestResult>
+    <UnitTestResult executionId="fd4e4a01-dae7-4bac-94d8-5a65b41bcb67" testId="e0f4a44e-2760-6f11-3652-dd15d3938016" testName="Index" computerName="BOTULY-PC" duration="00:00:00.0003338" startTime="2011-06-28T02:41:24.5809059+02:00" endTime="2011-06-28T02:41:24.5869063+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd4e4a01-dae7-4bac-94d8-5a65b41bcb67">
+    </UnitTestResult>
+  </Results>
+</TestRun>
