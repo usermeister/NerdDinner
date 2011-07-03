@@ -7,6 +7,6 @@
 <asp:Content ID="aboutContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2>About</h2>
     <p>
-        Put content here.
+        This is practice of git source control, so I'm just making some irrelevant changes.
     </p>
 </asp:Content>
