@@ -6,3 +6,11 @@ D:\Work\Visual Studio Projects\NerdDinner\NerdDinner.Tests\bin\Debug\NerdDinner.
 D:\Work\Visual Studio Projects\NerdDinner\NerdDinner.Tests\obj\Debug\ResolveAssemblyReference.cache
 D:\Work\Visual Studio Projects\NerdDinner\NerdDinner.Tests\obj\Debug\NerdDinner.Tests.dll
 D:\Work\Visual Studio Projects\NerdDinner\NerdDinner.Tests\obj\Debug\NerdDinner.Tests.pdb
+C:\Users\nmundar\Documents\Visual Studio 2010\Projects\NerdDinner\NerdDinner.Tests\bin\Debug\NerdDinner.Tests.dll.config
+C:\Users\nmundar\Documents\Visual Studio 2010\Projects\NerdDinner\NerdDinner.Tests\bin\Debug\NerdDinner.Tests.dll
+C:\Users\nmundar\Documents\Visual Studio 2010\Projects\NerdDinner\NerdDinner.Tests\bin\Debug\NerdDinner.Tests.pdb
+C:\Users\nmundar\Documents\Visual Studio 2010\Projects\NerdDinner\NerdDinner.Tests\bin\Debug\NerdDinner.dll
+C:\Users\nmundar\Documents\Visual Studio 2010\Projects\NerdDinner\NerdDinner.Tests\bin\Debug\NerdDinner.pdb
+C:\Users\nmundar\Documents\Visual Studio 2010\Projects\NerdDinner\NerdDinner.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\nmundar\Documents\Visual Studio 2010\Projects\NerdDinner\NerdDinner.Tests\obj\Debug\NerdDinner.Tests.dll
+C:\Users\nmundar\Documents\Visual Studio 2010\Projects\NerdDinner\NerdDinner.Tests\obj\Debug\NerdDinner.Tests.pdb

@@ -11,7 +11,7 @@ namespace NerdDinner.Controllers
     {
         public ActionResult Index()
         {
-            ViewData["Message"] = "Welcome to ASP.NET MVC!";
+            ViewData["Message"] = "Welcome to ASP.NET MVC! NerdDinner example.";
 
             return View();
         }
