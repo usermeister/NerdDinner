@@ -15,7 +15,7 @@
             { %>
     
     
-            <!--<label for="UserName">User Name:</label>-->
+            <label for="UserName">User Name:</label>
             <br />
             <%= Html.TextBox("UserName") %>
         
