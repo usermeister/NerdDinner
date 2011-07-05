@@ -12,7 +12,7 @@ namespace NerdDinner.Controllers
         public ActionResult Index()
         {
             ViewData["Message"] = "Welcome to ASP.NET MVC! NerdDinner example.";
-            ViewData["TestData"] = this.Url.ToString();
+            ViewData["TestData"] = "Time of Http request: " + this.Url.RequestContext.HttpContext.Timestamp.ToString();
 
             return View();
         }
